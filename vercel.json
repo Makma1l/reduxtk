@@ -1,13 +1,8 @@
-import React from 'react';
-import A from "./components/A";
-import './App.css';
-
-function App() {
-  return (
-    <div className="App">
-      <A />
-    </div>
-  );
+{
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/"
+    }
+  ]
 }
-
-export default App;
